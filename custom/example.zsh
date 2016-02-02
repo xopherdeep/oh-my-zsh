@@ -156,7 +156,7 @@ thedate() {
   alias ssh.jdmellberg='ssh jdmellberg@jdm.rackspace'
   alias ssh.jdmf='ssh jdmellbergfinancial@jdm.rackspace'
   
-  aliag ssh.jdretirement='ssh jdretirement@jdm.rackspace'
+  alias ssh.jdretirement='ssh jdretirement@jdm.rackspace'
   alias ssh.jdsocialsecurity='ssh jdsocialsecurity@jdm.rackspace'
   alias ssh.masteryourmoney='ssh masteryourmoney@jdm.rackspace'
   alias ssh.seniorannuityalert='ssh seniorannuityalert@jdm.rackspace'
