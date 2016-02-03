@@ -161,9 +161,13 @@ thedate() {
   alias ssh.masteryourmoney='ssh masteryourmoney@jdm.rackspace'
   alias ssh.seniorannuityalert='ssh seniorannuityalert@jdm.rackspace'
   alias ssh.ssannuity='ssh ssannuity@jdm.rackspace'
+  alias ssh.jdmaccesscode='ssh jdmaccesscode@jdm.rackspace'
+  alias ssh.multi='ssh multi@jdm.rackspace'
+
   alias ssh.totalannuityrates='ssh totalannuityrates@jdm.rackspace'
   alias ssh.jdmellbergcareers='ssh jdmellbergcareers@jdmellbergcareers.com'
-  #
+  alias ssh.secureinvestmentmanagement="ssh secureinvestmentmanagement@secureinvestmentmanagement.com"
+  alias ssh.joshmellberg='ssh joshmellberg@joshmellberg.com'
 # Tribal Convergence
   alias aokha='sshfs aokha@xtiv.net:/home/aokha ~/Documents/CLIENTS/HalloftheGodsInc/xtiv.net;'
   alias aokha-unmount='fusermount -u  ~/Documents/CLIENTS/HalloftheGodsInc/xtiv.net'

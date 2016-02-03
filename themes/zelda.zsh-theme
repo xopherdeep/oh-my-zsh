@@ -28,6 +28,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN="⚷ $reset_color$fg[red]-LIFE- ♥ ♥ ♥ ♥ ♥ �
 TMOUT=1
 
 TRAPALRM() {
-    zle && zle reset-prompt
+    # zle && zle reset-prompt
 }
 
