@@ -53,7 +53,8 @@ thedate() {
   alias P='c; git push'
   alias AC="A C";
   #
-  alias pull='git subtree pull --prefix lp lp master --squash'
+  alias lppull='git subtree pull --prefix lp lp master --squash'
+  alias lppush='git subtree push --prefix lp lp master --squash'
   #
 #svn 
   alias sca='svn commit -m'
@@ -78,7 +79,7 @@ thedate() {
   alias lamp='mklog; sudo service mysql stop; sudo /opt/lampp/lampp start;' 
   alias lamp-stop='sudo /opt/lampp/lampp stop;' 
   alias lamp-restart='sudo /opt/lampp/lampp restart; dns.x' 
-  alias mklog="sudo mkdir /var/log/lampp/"
+  alias mklog="sudo mkdir /var/log/lampp/; sudo ln -s /var/log/lampp /var/log/apache2"
 
 # Customx
   alias dns.x='sudo /etc/init.d/nscd restart'
@@ -109,6 +110,7 @@ thedate() {
 
 # www. Attack Aviation Foundation .com
   alias run.aaf='run aaf' 
+  alias ssh.tacp='ssh tacpassociation@tacpassociation.org'
   alias ssh.ba='ssh blueairtraining@blueairtraining.com'
   alias www.aaf='sshfs blueairtraining@blueairtraining.com:/home/blueairtraining/dev.attackaviationfoundation.com ~/Documents/CLIENTS/AttackAviationFoundation/www'
   alias dev.aaf='sshfs blueairtraining@blueairtraining.com:/home/blueairtraining/attackaviationfoundation.com ~/Documents/CLIENTS/AttackAviationFoundation/dev'
@@ -155,11 +157,12 @@ thedate() {
   alias ssh.jdmcheck='ssh jdmcheck@jdm.rackspace'
   alias ssh.jdmellberg='ssh jdmellberg@jdm.rackspace'
   alias ssh.jdmf='ssh jdmellbergfinancial@jdm.rackspace'
-  
+  alias ssh.hub='ssh hub@104.239.168.130'
   alias ssh.jdretirement='ssh jdretirement@jdm.rackspace'
   alias ssh.jdsocialsecurity='ssh jdsocialsecurity@jdm.rackspace'
   alias ssh.masteryourmoney='ssh masteryourmoney@jdm.rackspace'
   alias ssh.seniorannuityalert='ssh seniorannuityalert@jdm.rackspace'
+  alias ssh.medicare='ssh medicarewithease@jdm.rackspace'
   alias ssh.ssannuity='ssh ssannuity@jdm.rackspace'
   alias ssh.jdmaccesscode='ssh jdmaccesscode@jdm.rackspace'
   alias ssh.multi='ssh multi@jdm.rackspace'
@@ -173,6 +176,7 @@ thedate() {
   alias aokha-unmount='fusermount -u  ~/Documents/CLIENTS/HalloftheGodsInc/xtiv.net'
   alias ssh.aokha='ssh aokha@xtiv.net'
 
+  alias bfg='/usr/share/bfg/bfg.jar '
  # Dreamhost
   alias xtiv='sshfs adtimistrator@xtiv.net:/home/adtimistrator ~/Documents/CLIENTS/HalloftheGodsInc/xtiv.net;'
   alias xtiv-unmount='fusermount -u  ~/Documents/CLIENTS/HalloftheGodsInc/xtiv.net'
