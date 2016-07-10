@@ -32,8 +32,15 @@ else
     SCREEN_NO=""
 fi
 
+
+autoload -U colors && colors
+
+PS1=" $fg[yellow]%w⟁%t $fg[green]@  %n%{$fg[red]%}# * *     
+ $reset_color▼  %{$fg[blue]%}%m%{$reset_color%}$fg[blue] † %d $fg[white]\$vcs_info_msg_0_ $fg[white]  
+ ➟  $reset_color%c/$ "
+
 # Apply theming defaults
-PS1="%n@%m:%~%# "
+#PS1="%n@%m:%~%# "
 
 # git theming default: Variables for theming the git info prompt
 ZSH_THEME_GIT_PROMPT_PREFIX="git:("         # Prefix at the very beginning of the prompt, before the branch name
@@ -43,3 +50,5 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""               # Text to display if the branch is c
 
 # Setup the prompt with pretty colors
 setopt prompt_subst
+
+
