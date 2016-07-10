@@ -28,6 +28,7 @@ thedate() {
   alias nin.d='npm install --save-dev -D -E'
   alias nin.g='npm install --save -S'
   alias mysql='/opt/lampp/bin/mysql -u root'
+  alias syslog='sudo tail -f /var/log/syslog'
   #
   #
 # PROCESS.ENV
@@ -162,6 +163,7 @@ thedate() {
   alias ssh.jdsocialsecurity='ssh jdsocialsecurity@jdm.rackspace'
   alias ssh.masteryourmoney='ssh masteryourmoney@jdm.rackspace'
   alias ssh.seniorannuityalert='ssh seniorannuityalert@jdm.rackspace'
+  alias ssh.taxfreeforlife='ssh taxfreeforlifetoday@jdm.rackspace'
   alias ssh.medicare='ssh medicarewithease@jdm.rackspace'
   alias ssh.ssannuity='ssh ssannuity@jdm.rackspace'
   alias ssh.jdmaccesscode='ssh jdmaccesscode@jdm.rackspace'
